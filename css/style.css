@@ -1,0 +1,242 @@
+@media (min-width: 1024px) {
+    
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.ubicacion{
+    width: auto;
+    height: auto;
+    margin: auto;
+    display: block;
+}
+.PublicidadGrande{
+    display: flex;
+    width: 50%;
+    height: auto;
+    margin: auto;
+}
+
+.VentaPubli{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 30px;
+    text-align: center;
+    font-size: 20px;
+    text-decoration: none;
+}
+.Venta{
+    display: inline-block;
+    width: 30%;
+    margin: auto;
+    padding: 0.5rem;
+    background-color: #000000;
+    border: 1px solid #000000;
+    border-radius: 10%;
+    
+}
+
+.Venta1{
+    display: block;
+    width: 30%;
+    margin: auto;
+    padding: 0.5rem;
+    background-color: #000000;
+    border: 1px solid #000000;
+    border-radius: 10%;
+}
+
+.VentaPubli2{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    padding: 30px;
+    text-align: center;
+    font-size: 20px;
+    text-decoration: none;
+}
+.Venta2{
+    display: block;
+    width: 30%;
+    margin: auto;
+    padding: 0.5rem;
+    background-color: #000000;
+    border: 1px solid #000000;
+    border-radius: 10%;
+}
+.Venta3{
+    display: block;
+    width: 30%;
+    margin: auto;
+    padding: 0.5rem;
+    background-color: #000000;
+    border: 1px solid #000000;
+    border-radius: 10%;
+}
+
+.menu{
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    list-style: none;
+    padding: 0;
+    background: black;
+    width: 100%;
+    max-width: auto;
+    margin: 0;
+    .Logo{
+        width: auto;
+        height: 100px;
+        grid-column: start;
+    }
+    font-size: 50px;
+}
+
+.menu li a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    display: block;
+}
+
+.menu li{
+    display: inline-block;
+    text-align: center;
+}
+
+.barraInferior{
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    
+    list-style: none;
+    padding: 0;
+    background: black;
+    width: auto;
+    max-width: auto;
+    margin: auto;
+    bottom: 0;
+    position: auto;
+}
+
+.barraInferior li a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    display: block;
+}
+
+.barraInferior li{
+    display: inline-block;
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+
+.nosotrosletra{
+    list-style: none;
+    padding: 0;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+}
+.nosotrosletra p{
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+.nosotrosletra h2{
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+}
+
+
+
+
+@media (min-width: 600px) {
+
+    .menu{
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    list-style: none;
+    padding: 0;
+    background: black;
+    width: 100%;
+    max-width: auto;
+    margin: 0;
+    .Logo{
+        width: auto;
+        height: 100px;
+        grid-column: start;
+    }
+    font-size: 30px;
+    }
+    .menu li a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    margin-top: 25px;
+    }
+    .menu li{
+    display: inline-block;
+    text-align: center;
+    }
+
+    .barraInferior{
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    list-style: none;
+    padding: 0;
+    background: black;
+    width: auto;
+    max-width: auto;
+    margin: auto;
+    bottom: 0;
+    position: auto;
+    }
+
+    .barraInferior li a{
+        text-decoration: none;
+        color: white;
+        padding: 20px;
+        display: block;
+    }
+
+    .barraInferior li{
+        display: inline-block;
+        text-align: center;
+    }
+    
+    h1{
+    text-align: center;
+    color: white;
+    background-color: black;
+    }
+    .nosotrosletra p{
+    text-align: center;
+    color: white;
+    background-color: black;
+    }
+    .nosotrosletra h2{
+    text-align: center;
+    color: white;
+    background-color: black;
+    }
+    h1 {
+        font-size: 2em;
+    }
+    
+    .menu {
+        font-size: auto;
+    }
+    .ubicacion{
+        width: 100%;
+        height: auto;
+        margin: auto;
+        display: block;
+    }
+
+}
