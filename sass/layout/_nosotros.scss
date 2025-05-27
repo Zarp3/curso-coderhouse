@@ -1,0 +1,33 @@
+
+.nosotrosletra{
+    list-style: none;
+    padding: 0;
+    width: 90%;
+    max-width: 1000px;
+    margin: 10px auto;
+}
+.nosotrosletra p{
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+.nosotrosletra h2{
+    text-align: center;
+    margin: 10px auto;
+    color: white;
+    background-color: black;
+}
+
+@media screen and (max-width: 600px) {
+    .nosotrosletra p, .nosotrosletra h2 {
+        font-size: 1.2rem; 
+    }
+    .nosotrosletra {
+        width: 100%; 
+        padding: 10px; 
+    }
+    .menu {
+        font-size: 20px; 
+        align-items: center;
+    }
+}

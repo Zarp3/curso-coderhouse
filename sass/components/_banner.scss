@@ -1,0 +1,45 @@
+    .banner {
+    display: flex;
+    justify-content: center;
+    background-color: #000; 
+    color: white;
+    padding: 50px 0;
+    }
+
+    .banner h1 {
+    font-size: 3rem;
+    margin: 0;
+    line-height: 1.5;
+    }
+    
+    .descripcion {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 1rem;
+    color: #000;
+    }
+
+    .ImagenCentral{
+        width: 350px;
+        margin-right: 100px;
+        transform: rotate(-20deg);
+    }
+
+    .ImagenCentral2 {
+        width: 350px;
+        margin-left: 100px;
+        transform: rotate(20deg);
+    }
+
+    .Letra1{
+        font-size: 2rem;
+        color: #ffffff;
+        font-weight: bold;
+        text-decoration: underline;
+    }
+    .Letra2{
+        @extend .Letra1;
+    }
+    .Letra3{
+        @extend .Letra1;
+    }
