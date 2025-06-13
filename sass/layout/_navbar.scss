@@ -26,3 +26,12 @@
     display: inline-block;
     text-align: center;
 }
+
+@media screen and (max-width: 768px) {
+    .menu li a {
+        display: contents;
+        
+        padding: 15px;
+        font-size: auto;
+    }
+}

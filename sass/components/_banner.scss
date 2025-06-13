@@ -43,3 +43,30 @@
     .Letra3{
         @extend .Letra1;
     }
+    
+    @media screen and (max-width: 768px) {
+        .banner {
+            padding: 30px;
+        }
+
+        .banner h1 {
+            font-size: 2rem;
+        }
+
+        .descripcion {
+            font-size: 0.9rem;
+        }
+
+        .ImagenCentral{
+            width: 130px;
+            margin-right: auto;
+            transform: rotate(-20deg);
+        }
+
+        .ImagenCentral2 {
+            width: 130px;
+            margin-left: auto;
+            transform: rotate(20deg);
+        }
+        
+    }

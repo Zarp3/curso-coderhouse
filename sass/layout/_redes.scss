@@ -73,3 +73,23 @@ animation: slide-in-top 0.3s both;
 }
 }
 
+@media screen and (max-width: 768px) {
+    .redes {
+        position: fixed;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 100%;
+        padding: 10px;
+        justify-content: space-around;
+    }
+
+    .socialContainer {
+        width: 40px;
+        height: 40px;
+    }
+
+    .socialSvg {
+        width: 15px;
+    }
+
+}
