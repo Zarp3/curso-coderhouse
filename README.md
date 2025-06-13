@@ -1,13 +1,8 @@
-# Entrega del Tercer Trabajo - Coderhouse
+# Entrega del Trabajo Final - Coderhouse
 
-Este repositorio contiene la entrega del tercer trabajo del curso.
+Este repositorio contiene la entrega del trabajo final del curso.
 
-## Archivos incluidos
-
-- `Catalogo.html`
-- `Nosotros.html`
-- `clientes.html`
-- `locales.html`
+## Todos los archivos son full responsive 
 
 Todas estas páginas están desarrolladas con diseño **full responsive**.
 
